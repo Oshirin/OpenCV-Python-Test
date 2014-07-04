@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python OpenCV Test</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>画像をおくる</h1>
+<form enctype="multipart/form-data" id="Form1" name="Form1" method="POST" action="./cgi-bin/image.py">
+画像: <input type="file" name="img" id="img" value="" /></br>
+認識範囲: <p><input type="radio" name="area" value="1" checked="checked">顔
+<input type="radio" name="area" value="2">目
+</p>
+<input type="submit" value="送信する" name="submit" />
+</form>
+</body>
+</html>
